@@ -146,6 +146,153 @@ const FooterNote = styled.div`
   letter-spacing: 0.08em;
 `
 
+const InfoSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+`
+
+const InfoGrid = styled.div`
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+`
+
+const InfoCard = styled.div`
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(15, 23, 42, 0.35);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    color: #f8fafc;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  p {
+    margin: 0;
+    color: #cbd5f5;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+`
+
+const StepList = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+`
+
+const Step = styled.div`
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+`
+
+const StepNumber = styled.div`
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(96, 165, 250, 0.2);
+  color: #60a5fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: 1px solid rgba(96, 165, 250, 0.3);
+`
+
+const StepContent = styled.div`
+  flex: 1;
+  padding-top: 0.25rem;
+
+  h4 {
+    margin: 0 0 0.35rem;
+    color: #f8fafc;
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    color: #cbd5f5;
+    line-height: 1.6;
+    font-size: 0.9rem;
+  }
+`
+
+const FeatureGrid = styled.div`
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+`
+
+const Feature = styled.div`
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(15, 23, 42, 0.3);
+  padding: 1.25rem;
+
+  h4 {
+    margin: 0 0 0.5rem;
+    color: #60a5fa;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: #cbd5f5;
+    line-height: 1.6;
+    font-size: 0.9rem;
+  }
+`
+
+const FAQGrid = styled.div`
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+`
+
+const FAQ = styled.div`
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(15, 23, 42, 0.25);
+  padding: 1.25rem;
+
+  h4 {
+    margin: 0 0 0.5rem;
+    color: #f8fafc;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: #cbd5f5;
+    line-height: 1.6;
+    font-size: 0.88rem;
+  }
+`
+
+const SectionTitle = styled.h2`
+  margin: 0 0 1.5rem;
+  font-size: 1.8rem;
+  color: #f8fafc;
+  text-align: center;
+  letter-spacing: 0.05em;
+`
+
 const IconSpin = styled(Loader2)`
   animation: spin 1s linear infinite;
 
@@ -363,6 +510,147 @@ function App() {
                 </CardContent>
               </Card>
             )}
+
+            <InfoSection>
+              <div>
+                <SectionTitle>How to Get Started</SectionTitle>
+                <StepList>
+                  <Step>
+                    <StepNumber>1</StepNumber>
+                    <StepContent>
+                      <h4>Pick Your Perfect Voice</h4>
+                      <p>Explore our diverse voice library spanning dozens of languages. From warm and conversational to professional and authoritative - find the voice that brings your words to life.</p>
+                    </StepContent>
+                  </Step>
+                  <Step>
+                    <StepNumber>2</StepNumber>
+                    <StepContent>
+                      <h4>Download Once, Use Forever</h4>
+                      <p>Grab your chosen voice model in seconds. This one-time download (10-80MB) lives in your browser permanently, ready to work its magic anytime - even without internet.</p>
+                    </StepContent>
+                  </Step>
+                  <Step>
+                    <StepNumber>3</StepNumber>
+                    <StepContent>
+                      <h4>Drop in Your Content</h4>
+                      <p>Paste your article, script, or story. Our intelligent text processor automatically handles lengthy content, breaking it into natural segments while preserving the flow of your narrative.</p>
+                    </StepContent>
+                  </Step>
+                  <Step>
+                    <StepNumber>4</StepNumber>
+                    <StepContent>
+                      <h4>Watch the Magic Happen</h4>
+                      <p>Hit 'Speak' and witness your words transform into lifelike speech. Our WebAssembly-powered engine runs entirely in your browser, keeping your content private while delivering professional-quality audio.</p>
+                    </StepContent>
+                  </Step>
+                  <Step>
+                    <StepNumber>5</StepNumber>
+                    <StepContent>
+                      <h4>Listen and Share</h4>
+                      <p>Play your crisp, high-quality audio instantly or download it for any project. Every audio file you create is yours to use however you like - no strings attached.</p>
+                    </StepContent>
+                  </Step>
+                </StepList>
+              </div>
+
+              <div>
+                <SectionTitle>Perfect For</SectionTitle>
+                <InfoGrid>
+                  <InfoCard>
+                    <h3>Content Creators</h3>
+                    <p>Transform scripts into professional voiceovers for YouTube, TikTok, podcasts, or explainer videos. No expensive recording equipment or voice actors needed - just your words and our AI.</p>
+                  </InfoCard>
+                  <InfoCard>
+                    <h3>Learning & Accessibility</h3>
+                    <p>Turn textbooks into audiobooks for auditory learners. Make websites accessible for visually impaired users. Master pronunciation in any of our 40+ languages with native-quality speech.</p>
+                  </InfoCard>
+                  <InfoCard>
+                    <h3>Audiobook Enthusiasts</h3>
+                    <p>Convert your favorite articles, blog posts, or research papers into audio companions. Perfect for multitasking, commuting, or simply giving your eyes a rest while staying informed.</p>
+                  </InfoCard>
+                  <InfoCard>
+                    <h3>Developers & Testers</h3>
+                    <p>Prototype voice interfaces, generate sample audio for demos, or test multilingual speech features. No API keys, no rate limits, no budget constraints - just build and iterate freely.</p>
+                  </InfoCard>
+                  <InfoCard>
+                    <h3>Privacy Champions</h3>
+                    <p>Process confidential documents, sensitive scripts, or private content without ever sending data to external servers. Your words stay on your device, encrypted and secure.</p>
+                  </InfoCard>
+                  <InfoCard>
+                    <h3>Off-the-Grid Workers</h3>
+                    <p>Travel to remote locations, work on planes, or overcome unreliable internet. Once you've downloaded models, create unlimited audio anywhere, anytime, without connectivity.</p>
+                  </InfoCard>
+                </InfoGrid>
+              </div>
+
+              <div>
+                <SectionTitle>Why Web TTS?</SectionTitle>
+                <FeatureGrid>
+                  <Feature>
+                    <h4>Fort Knox Privacy</h4>
+                    <p>Zero data transmission. Your text never touches our servers or anyone else's. Every byte of processing happens locally in your browser using cutting-edge WebAssembly technology.</p>
+                  </Feature>
+                  <Feature>
+                    <h4>Truly Free Forever</h4>
+                    <p>No freemium tricks, no hidden costs, no credit card required. Generate unlimited audio for personal or commercial projects without spending a penny or worrying about subscription renewals.</p>
+                  </Feature>
+                  <Feature>
+                    <h4>Zero Setup Required</h4>
+                    <p>No downloads, no installations, no accounts, no configuration files. Just open your browser and start creating. It literally takes 30 seconds from landing to generating your first audio.</p>
+                  </Feature>
+                  <Feature>
+                    <h4>Open Source Power</h4>
+                    <p>Built on Piper TTS - a battle-tested, community-driven text-to-speech engine. Benefit from continuous improvements, transparent development, and a thriving ecosystem of contributors.</p>
+                  </Feature>
+                  <Feature>
+                    <h4>Works Everywhere</h4>
+                    <p>Desktop, mobile, tablet - iOS, Android, Windows, Mac, Linux. Same smooth experience across every modern browser and platform. Your workspace follows you everywhere.</p>
+                  </Feature>
+                  <Feature>
+                    <h4>Offline Champion</h4>
+                    <p>Download models once and they're yours forever. Generate speech on planes, in basements, or anywhere else connectivity is a luxury. Your creative flow never has to stop.</p>
+                  </Feature>
+                </FeatureGrid>
+              </div>
+
+              <div>
+                <SectionTitle>Frequently Asked Questions</SectionTitle>
+                <FAQGrid>
+                  <FAQ>
+                    <h4>Is this actually free or is there a catch?</h4>
+                    <p>It's genuinely, completely free. No trials, no premium tiers, no usage caps. Create unlimited audio for any purpose and keep 100% ownership of everything you generate.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>Can I monetize content made with this?</h4>
+                    <p>Absolutely! Use generated audio in monetized YouTube videos, commercial products, client projects, or sell it directly. Full commercial rights included - no attribution required.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>How many languages can I work with?</h4>
+                    <p>Dozens! English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, Arabic, Hindi, and many more. Each with multiple unique voice profiles.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>Will this work without internet?</h4>
+                    <p>Yes! After downloading your voice models, everything works offline. Models cache permanently in your browser - no re-downloads, no connectivity checks, no interruptions.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>Where does my text data go?</h4>
+                    <p>Nowhere. Your content never leaves your device. All processing happens locally using WebAssembly. We literally can't see your text because it never reaches any server.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>Which browsers support this technology?</h4>
+                    <p>Any modern browser with WebAssembly support: Chrome 92+, Edge 92+, Firefox 92+, Safari 15.2+. If your browser is from the last 2-3 years, you're good to go.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>How big are the voice files?</h4>
+                    <p>Between 10MB (basic quality) and 80MB (premium quality). You only download what you need, and each model stays cached forever. Most users download 2-3 favorite voices.</p>
+                  </FAQ>
+                  <FAQ>
+                    <h4>Can I switch between different voices?</h4>
+                    <p>Of course! Download as many voices as you want. Switch instantly between them for different projects. All cached voices stay available for instant use anytime.</p>
+                  </FAQ>
+                </FAQGrid>
+              </div>
+            </InfoSection>
           </>
         )}
         <FooterNote>On-Device AI • Privacy-First LLM • Zero Subscriptions</FooterNote>

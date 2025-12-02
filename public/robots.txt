@@ -1,0 +1,6 @@
+# robots.txt for Web-TTS
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://tts.wahthefox.com/sitemap.xml
