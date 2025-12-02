@@ -518,36 +518,36 @@ function App() {
                   <Step>
                     <StepNumber>1</StepNumber>
                     <StepContent>
-                      <h4>Choose Your Voice</h4>
-                      <p>Browse languages and voice options to find the perfect match. Each language offers multiple voice profiles with different characteristics.</p>
+                      <h4>Pick Your Perfect Voice</h4>
+                      <p>Explore our diverse voice library spanning dozens of languages. From warm and conversational to professional and authoritative - find the voice that brings your words to life.</p>
                     </StepContent>
                   </Step>
                   <Step>
                     <StepNumber>2</StepNumber>
                     <StepContent>
-                      <h4>Download the Model</h4>
-                      <p>First-time use requires downloading a voice model. This one-time process caches the model in your browser for instant access later. Sizes range from 10MB to 80MB.</p>
+                      <h4>Download Once, Use Forever</h4>
+                      <p>Grab your chosen voice model in seconds. This one-time download (10-80MB) lives in your browser permanently, ready to work its magic anytime - even without internet.</p>
                     </StepContent>
                   </Step>
                   <Step>
                     <StepNumber>3</StepNumber>
                     <StepContent>
-                      <h4>Enter Your Text</h4>
-                      <p>Type or paste your content. The app automatically handles long texts by breaking them into segments while maintaining natural speech flow.</p>
+                      <h4>Drop in Your Content</h4>
+                      <p>Paste your article, script, or story. Our intelligent text processor automatically handles lengthy content, breaking it into natural segments while preserving the flow of your narrative.</p>
                     </StepContent>
                   </Step>
                   <Step>
                     <StepNumber>4</StepNumber>
                     <StepContent>
-                      <h4>Generate Speech</h4>
-                      <p>Click 'Speak' and watch as your text transforms into natural-sounding speech. All processing happens locally in your browser.</p>
+                      <h4>Watch the Magic Happen</h4>
+                      <p>Hit 'Speak' and witness your words transform into lifelike speech. Our WebAssembly-powered engine runs entirely in your browser, keeping your content private while delivering professional-quality audio.</p>
                     </StepContent>
                   </Step>
                   <Step>
                     <StepNumber>5</StepNumber>
                     <StepContent>
-                      <h4>Listen and Download</h4>
-                      <p>Play the generated audio immediately through the built-in player. Audio is generated in high-quality WAV format.</p>
+                      <h4>Listen and Share</h4>
+                      <p>Play your crisp, high-quality audio instantly or download it for any project. Every audio file you create is yours to use however you like - no strings attached.</p>
                     </StepContent>
                   </Step>
                 </StepList>
@@ -557,28 +557,28 @@ function App() {
                 <SectionTitle>Perfect For</SectionTitle>
                 <InfoGrid>
                   <InfoCard>
-                    <h3>Content Creation</h3>
-                    <p>Generate voiceovers for videos, podcasts, or presentations without recording equipment or voice actors.</p>
+                    <h3>Content Creators</h3>
+                    <p>Transform scripts into professional voiceovers for YouTube, TikTok, podcasts, or explainer videos. No expensive recording equipment or voice actors needed - just your words and our AI.</p>
                   </InfoCard>
                   <InfoCard>
                     <h3>Learning & Accessibility</h3>
-                    <p>Convert written materials into audio for auditory learners or users with visual impairments. Practice pronunciation for language learning.</p>
+                    <p>Turn textbooks into audiobooks for auditory learners. Make websites accessible for visually impaired users. Master pronunciation in any of our 40+ languages with native-quality speech.</p>
                   </InfoCard>
                   <InfoCard>
-                    <h3>Personal Audiobooks</h3>
-                    <p>Transform articles, blog posts, or documents into audio format for listening on-the-go or during commutes.</p>
+                    <h3>Audiobook Enthusiasts</h3>
+                    <p>Convert your favorite articles, blog posts, or research papers into audio companions. Perfect for multitasking, commuting, or simply giving your eyes a rest while staying informed.</p>
                   </InfoCard>
                   <InfoCard>
-                    <h3>Development & Testing</h3>
-                    <p>Test voice interfaces, prototype voice-enabled applications, or generate sample audio for demos without external APIs.</p>
+                    <h3>Developers & Testers</h3>
+                    <p>Prototype voice interfaces, generate sample audio for demos, or test multilingual speech features. No API keys, no rate limits, no budget constraints - just build and iterate freely.</p>
                   </InfoCard>
                   <InfoCard>
-                    <h3>Privacy-Focused Use</h3>
-                    <p>Process sensitive text content without sending data to external servers. Everything runs locally in your browser.</p>
+                    <h3>Privacy Champions</h3>
+                    <p>Process confidential documents, sensitive scripts, or private content without ever sending data to external servers. Your words stay on your device, encrypted and secure.</p>
                   </InfoCard>
                   <InfoCard>
-                    <h3>Offline Projects</h3>
-                    <p>Work without internet connection after downloading models. Perfect for travel or restricted networks.</p>
+                    <h3>Off-the-Grid Workers</h3>
+                    <p>Travel to remote locations, work on planes, or overcome unreliable internet. Once you've downloaded models, create unlimited audio anywhere, anytime, without connectivity.</p>
                   </InfoCard>
                 </InfoGrid>
               </div>
@@ -587,28 +587,28 @@ function App() {
                 <SectionTitle>Why Web TTS?</SectionTitle>
                 <FeatureGrid>
                   <Feature>
-                    <h4>Complete Privacy</h4>
-                    <p>Your text never leaves your device. All processing happens locally using WebAssembly technology.</p>
+                    <h4>Fort Knox Privacy</h4>
+                    <p>Zero data transmission. Your text never touches our servers or anyone else's. Every byte of processing happens locally in your browser using cutting-edge WebAssembly technology.</p>
                   </Feature>
                   <Feature>
-                    <h4>Zero Cost</h4>
-                    <p>No subscriptions, no API fees, no usage limits. Download models once and use them forever, even offline.</p>
+                    <h4>Truly Free Forever</h4>
+                    <p>No freemium tricks, no hidden costs, no credit card required. Generate unlimited audio for personal or commercial projects without spending a penny or worrying about subscription renewals.</p>
                   </Feature>
                   <Feature>
-                    <h4>Instant Access</h4>
-                    <p>No installation, no sign-up, no configuration. Open the app and start converting text to speech immediately.</p>
+                    <h4>Zero Setup Required</h4>
+                    <p>No downloads, no installations, no accounts, no configuration files. Just open your browser and start creating. It literally takes 30 seconds from landing to generating your first audio.</p>
                   </Feature>
                   <Feature>
-                    <h4>Open Source</h4>
-                    <p>Built on Piper TTS, a proven open-source engine with active development and community support.</p>
+                    <h4>Open Source Power</h4>
+                    <p>Built on Piper TTS - a battle-tested, community-driven text-to-speech engine. Benefit from continuous improvements, transparent development, and a thriving ecosystem of contributors.</p>
                   </Feature>
                   <Feature>
-                    <h4>Cross-Platform</h4>
-                    <p>Works on any modern browser - Windows, macOS, Linux, Android, iOS. Same experience everywhere.</p>
+                    <h4>Works Everywhere</h4>
+                    <p>Desktop, mobile, tablet - iOS, Android, Windows, Mac, Linux. Same smooth experience across every modern browser and platform. Your workspace follows you everywhere.</p>
                   </Feature>
                   <Feature>
-                    <h4>Offline Ready</h4>
-                    <p>After downloading models, use the app without internet connection. Models stay cached permanently.</p>
+                    <h4>Offline Champion</h4>
+                    <p>Download models once and they're yours forever. Generate speech on planes, in basements, or anywhere else connectivity is a luxury. Your creative flow never has to stop.</p>
                   </Feature>
                 </FeatureGrid>
               </div>
@@ -617,36 +617,36 @@ function App() {
                 <SectionTitle>Frequently Asked Questions</SectionTitle>
                 <FAQGrid>
                   <FAQ>
-                    <h4>Is this really free?</h4>
-                    <p>Yes, completely free with no usage limits, subscriptions, or hidden fees. You own the generated audio files outright.</p>
+                    <h4>Is this actually free or is there a catch?</h4>
+                    <p>It's genuinely, completely free. No trials, no premium tiers, no usage caps. Create unlimited audio for any purpose and keep 100% ownership of everything you generate.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>Can I use audio commercially?</h4>
-                    <p>Yes, you have full rights to use generated audio for any lawful purpose, including commercial projects and products.</p>
+                    <h4>Can I monetize content made with this?</h4>
+                    <p>Absolutely! Use generated audio in monetized YouTube videos, commercial products, client projects, or sell it directly. Full commercial rights included - no attribution required.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>What languages are supported?</h4>
-                    <p>Dozens of languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, and more.</p>
+                    <h4>How many languages can I work with?</h4>
+                    <p>Dozens! English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, Arabic, Hindi, and many more. Each with multiple unique voice profiles.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>Does this work offline?</h4>
-                    <p>Yes! After downloading voice models, the entire app works offline. Models are cached in your browser permanently.</p>
+                    <h4>Will this work without internet?</h4>
+                    <p>Yes! After downloading your voice models, everything works offline. Models cache permanently in your browser - no re-downloads, no connectivity checks, no interruptions.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>Is my data sent to servers?</h4>
-                    <p>No. All text processing and speech generation happens locally in your browser. Your content stays completely private.</p>
+                    <h4>Where does my text data go?</h4>
+                    <p>Nowhere. Your content never leaves your device. All processing happens locally using WebAssembly. We literally can't see your text because it never reaches any server.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>Which browsers work?</h4>
-                    <p>Modern browsers with WebAssembly support: Chrome/Edge 92+, Firefox 92+, and Safari 15.2+.</p>
+                    <h4>Which browsers support this technology?</h4>
+                    <p>Any modern browser with WebAssembly support: Chrome 92+, Edge 92+, Firefox 92+, Safari 15.2+. If your browser is from the last 2-3 years, you're good to go.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>How large are models?</h4>
-                    <p>Model sizes range from 10MB (low quality) to 80MB (high quality). You only download models you choose to use.</p>
+                    <h4>How big are the voice files?</h4>
+                    <p>Between 10MB (basic quality) and 80MB (premium quality). You only download what you need, and each model stays cached forever. Most users download 2-3 favorite voices.</p>
                   </FAQ>
                   <FAQ>
-                    <h4>Can I use multiple voices?</h4>
-                    <p>Yes! Download as many voice models as you like and switch between them anytime. Each stays cached for quick access.</p>
+                    <h4>Can I switch between different voices?</h4>
+                    <p>Of course! Download as many voices as you want. Switch instantly between them for different projects. All cached voices stay available for instant use anytime.</p>
                   </FAQ>
                 </FAQGrid>
               </div>
